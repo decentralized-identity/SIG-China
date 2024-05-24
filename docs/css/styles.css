@@ -316,7 +316,10 @@ h5 {
   background: url(/icons/calendar.svg);
   background-size: cover;
 }
-
+.icon-link[href*="meeting.tencent.com"]:before {
+  background: url(/icons/event.svg);
+  background-size: cover;
+}
 .icon-link[href*="youtube.com"]:before {
   background: url(/icons/youtube.svg);
   background-size: cover;
